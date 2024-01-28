@@ -5,7 +5,7 @@ from geopy.distance import geodesic
 
 # Load the trained model
 file_path = 'delivery_time_predictor.pkl'
-model = pickle.load(open('delivery_time_predictor.pkl', 'rb'))
+model = pickle.load(open(file_path, 'rb'))
 
 # Title of the app
 st.title('Food Delivery Time Prediction App')
